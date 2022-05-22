@@ -4,7 +4,7 @@
   justify-content: center;
   align-content: center;
   grid-auto-flow: column;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../Assets/Oranges.png);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/);
   height: 80vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -247,20 +247,20 @@ footer {
     background-size: cover; }
   .localBusiness-section div.item:nth-of-type(1) {
     --offset: 1;
-    background-image: url(../Assets/bus1.png); }
+    background-image: url(../assets/bus1.png); }
   .localBusiness-section div.item:nth-of-type(2) {
     --offset: 2;
-    background-image: url(../Assets/BUSS2.png); }
+    background-image: url(../assets/BUSS2.png); }
   .localBusiness-section div.item:nth-of-type(3) {
     --offset: 3;
-    background-image: url(../Assets/BUSS3.png); }
+    background-image: url(../assets/BUSS3.png); }
   .localBusiness-section div.item:nth-of-type(4) {
     --offset: 4;
-    background-image: url(../Assets/BUSS4.png); }
+    background-image: url(../assets/BUSS4.png); }
   .localBusiness-section div.item:nth-of-type(5) {
     --offset: 5;
     background-color: #e9ff70;
-    background-image: url(../Assets/BUSS5.png); }
+    background-image: url(../assets/BUSS5.png); }
   .localBusiness-section input:nth-of-type(1) {
     grid-column: 2 / 3;
     grid-row: 2 / 3; }
