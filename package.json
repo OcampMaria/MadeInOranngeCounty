@@ -1,0 +1,25 @@
+{
+  "name": "madeinoranngecounty",
+  "version": "1.0.0",
+  "description": "Welcome to #MadeinOC where we highlight #OrangeCountyCA small business &amp; local heroes who are living their dream and serving our community. Join in the Great Orange County Recovery by supporting local small business &amp; heroes hardest hit by the pandemic",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "build-css": "node-sass --include-path scss scss/main.scss styles/main.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OcampMaria/MadeInOranngeCounty.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OcampMaria/MadeInOranngeCounty/issues"
+  },
+  "homepage": "https://github.com/OcampMaria/MadeInOranngeCounty#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
